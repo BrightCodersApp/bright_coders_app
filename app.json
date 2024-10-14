@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "bright_coders_app",
+    "slug": "brightcodersapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icons/playstore-icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "icon": "./assets/icons/appstore.png",
+      "bundleIdentifier": "com.brightcoder.brightcodersapp",
+      "runtimeVersion": {
+        "policy": "appVersion"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icons/playstore-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.bright_coder",
+      "runtimeVersion": "1.0.0"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "19f5e061-84ef-4ac9-815c-004a61946da0"
+      }
+    },
+
+    "owner": "brightcoder",
+    "plugins": [
+      "expo-localization",
+      "@react-native-google-signin/google-signin"
+
+
+    ],
+    "updates": {
+      "url": "https://u.expo.dev/19f5e061-84ef-4ac9-815c-004a61946da0"
+    }
+  }
+}
